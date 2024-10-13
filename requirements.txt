@@ -1,0 +1,9 @@
+mediapipe==0.10.14
+numpy==1.24.0
+opencv_contrib_python==4.10.0.84
+opencv_python==4.9.0.80
+pygrabber==0.2
+PyQt6==6.7.1
+PyQt6_sip==13.8.0
+qdarkstyle==3.2.3
+qtpy==2.4.1
