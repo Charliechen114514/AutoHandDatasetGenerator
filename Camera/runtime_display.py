@@ -34,8 +34,6 @@ class RuntimeDisplay:
         self.__thread_handle.wait()
         print("end!")
 
-    def __del__(self):
-        self.__set_as_stop()
 
     def export_current_fetch(self):
         if self.__current_handle_mat is None or self.__current_ready_save_point == [0, 0, 0, 0]:

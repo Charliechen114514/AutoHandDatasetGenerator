@@ -1,4 +1,4 @@
-# Automatic hand dataset generator  
+# Automatic hand dataset generator  V1.0
 
 ​	This software is designed to quickly generate software that can generate datasets for MediaPipe ModelMaker. Currently, the software provides two formats: manually generated and automatically generated datasets. 
 
@@ -29,3 +29,6 @@ pip install mediapipe # Automatic capture hand's landmarks
 pip install pygrabber # Get the list of available cameras on the machine
 ```
 
+## Program Pack Up
+
+​	All instructions required are listes in build.md, see the markdown file for detail if you havc self-defined pack up requists!

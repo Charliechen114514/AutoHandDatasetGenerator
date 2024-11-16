@@ -6,8 +6,8 @@ class MessageInformer:
         QMessageBox.critical(widget, "发生错误","不可用的摄像头！请更换检查摄像头或者摄像头选项")
 
     @staticmethod
-    def tell_internal_error(widget: QWidget):
-        QMessageBox.critical(widget, "发生错误", "程序内部错误！")
+    def tell_internal_error(widget: QWidget, err: str):
+        QMessageBox.critical(widget, "发生错误", "程序内部错误！,具体是: " + err)
 
 
     @staticmethod

@@ -3,11 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Disable Runtime Middlewares
-runtime_middlewares/
-
-# Disable Result
-result/
+# build files
+build/
 
 # C extensions
 *.so
@@ -31,7 +28,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+*.dll
+*.exe
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.

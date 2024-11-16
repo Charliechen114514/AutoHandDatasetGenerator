@@ -1,4 +1,4 @@
-# AutoHandDatasetGenerator
+# AutoHandDatasetGenerator V1.0
 
 ## 自动手部数据集生成器
 
@@ -36,3 +36,6 @@ pip install mediapipe 	# 自动捕获
 pip install pygrabber	# 获取机器下可用的摄像头列表
 ```
 
+## 程序打包
+
+​	如果您有自定义的打包需求，您可以参考build.md文件进行程序的打包！

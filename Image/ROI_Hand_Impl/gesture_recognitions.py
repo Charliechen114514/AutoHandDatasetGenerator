@@ -13,7 +13,7 @@ class GestureRecognition:
         INIT the recognizer as default, usually use the default recognizers
     """
     def __init_default_recognizer(self):
-        base_options = python.BaseOptions(model_asset_path='Image/ROI_Hand_Impl/models/default'
+        base_options = python.BaseOptions(model_asset_path='models/default'
                                                            '/default_gesture_recognizer.task')
         options = vision.GestureRecognizerOptions(base_options=base_options)
         options.min_hand_detection_confidence = 0.8

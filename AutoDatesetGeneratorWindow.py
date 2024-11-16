@@ -113,12 +113,10 @@ class AutoDatesetGeneratorWindow(QMainWindow):
         except DeviceNotFound as e:
             MessageInformer.invalid_camera_name(self)
             return
-        except ValueError as e:
-            MessageInformer.tell_internal_error(self)
         except NoneFrame as e:
             MessageInformer.tell_dry_frame_error(self)
         except Exception as e:
-            MessageInformer.tell_internal_error(self)
+            MessageInformer.tell_internal_error(self, str(e))
 
     def __close_camera(self):
         if self.__capture_mode.is_auto_now():
