@@ -1,4 +1,6 @@
-# Automatic hand dataset generator  V1.0
+# Automatic hand dataset generator  Formal V1.0
+
+​	The branch contains the formal one of the hand dataset generator, trying to use a more convinient builder and more stable version  
 
 ​	This software is designed to quickly generate software that can generate datasets for MediaPipe ModelMaker. Currently, the software provides two formats: manually generated and automatically generated datasets. 
 
