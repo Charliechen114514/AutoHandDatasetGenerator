@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "demo"
+name = "auto_handdataset_generator"
 version = "0.1.0"
 description = ""
 authors = ["charliechen114514 <725610365@qq.com>"]
@@ -10,6 +10,9 @@ python = ">=3.12 <3.13"
 mediapipe = "^0.10.20"
 pyside6 = {version = "<6.8.0", source = "tsinghua"}
 pygrabber = {version = "^0.2", source = "tsinghua"}
+loguru = {version = "^0.7.3", source = "tsinghua"}
+requests = {version = "^2.32.3", source = "tsinghua"}
+tqdm = {version = "^4.67.1", source = "tsinghua"}
 
 
 [[tool.poetry.source]]

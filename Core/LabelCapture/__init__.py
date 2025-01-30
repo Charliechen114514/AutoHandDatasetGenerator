@@ -1,0 +1,1 @@
+from .LabelMode import LabelCollectMode

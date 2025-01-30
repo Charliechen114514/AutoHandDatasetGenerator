@@ -1,0 +1,14 @@
+<!DOCTYPE RCC>
+<RCC>
+    <qresource prefix="/icons/toolbar">
+    </qresource>
+    <qresource prefix="/icons/toolbox">
+        <file>toolbox/settings.png</file>
+        <file>toolbox/check_infos.png</file>
+        <file>toolbox/recognize.png</file>
+        <file>toolbox/capture_hand.png</file>
+        <file>toolbox/camera.png</file>
+        <file>toolbox/cameralist.png</file>
+        <file>toolbox/label.gif</file>
+    </qresource>
+</RCC>
